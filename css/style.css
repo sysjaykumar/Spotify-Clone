@@ -13,7 +13,6 @@ body {
 
 .left {
     width: 25vw;
-    padding: 10px;
 }
 
 .right {
@@ -167,12 +166,40 @@ body {
 .playbar{
     position: absolute;
     bottom: 0;
-    background-color: grey;
-    width: 100%;
-    padding: 12px;
+    background-color: rgb(240, 232, 232);
+    width: 95%;
+    padding: 10px 0;
 }
 .song{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.songList ul{
+    padding: 0 42px;
+}
+
+.songList ul li{
+    list-style-type: decimal;
+    display: flex;
+    gap: 34px;
+    cursor: pointer;
+    padding: 12px 0;
+    border: 1px solid white;
+    margin: 12px;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.playNow{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+.playNow span{
+    font-size: 10px;
+    width: 50px;
+    padding: 12px; 
 }
